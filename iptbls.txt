@@ -717,3 +717,45 @@ A INPUT 8.18.196.0/24 -j DROP
 -A INPUT -s 46.226.162.0/23 -j DROP
 
 # 210644 Aeza-Network ^
+
+-A INPUT -s 196.56.0.0/14 -j DROP
+-A INPUT -s 196.196.0.0/14 -j DROP
+-A INPUT -s 196.240.0.0/14 -j DROP
+-A INPUT -s 196.244.0.0/15 -j DROP
+-A INPUT -s 196.247.0.0/16 -j DROP
+
+# AS37518 Fiber Grid INC ^
+# https://github.com/tyabus/banned_ips
+
+-A INPUT -s 5.157.6.0/24 -j DROP
+-A INPUT -s 5.157.11.0/24 -j DROP
+-A INPUT -s 5.157.19.0/24 -j DROP
+-A INPUT -s 5.157.21.0/24 -j DROP
+-A INPUT -s 5.157.23.0/24 -j DROP
+-A INPUT -s 5.157.24.0/24 -j DROP
+-A INPUT -s 5.157.26.0/24 -j DROP
+-A INPUT -s 5.157.29.0/24 -j DROP
+-A INPUT -s 5.157.32.0/23 -j DROP
+-A INPUT -s 5.157.34.0/24 -j DROP
+-A INPUT -s 5.157.37.0/24 -j DROP
+-A INPUT -s 5.157.43.0/24 -j DROP
+-A INPUT -s 5.157.51.0/24 -j DROP
+-A INPUT -s 5.157.53.0/24 -j DROP
+-A INPUT -s 5.157.55.0/24 -j DROP
+-A INPUT -s 23.92.115.0/24 -j DROP
+-A INPUT -s 23.92.116.0/24 -j DROP
+-A INPUT -s 23.92.126.0/24 -j DROP
+-A INPUT -s 37.72.186.0/24 -j DROP
+-A INPUT -s 104.160.16.0/23 -j DROP
+-A INPUT -s 107.150.64.0/23 -j DROP
+-A INPUT -s 107.150.67.0/24 -j DROP
+-A INPUT -s 107.150.69.0/24 -j DROP
+-A INPUT -s 107.150.70.0/23 -j DROP
+-A INPUT -s 107.150.88.0/22 -j DROP
+-A INPUT -s 130.185.153.0/24 -j DROP
+-A INPUT -s 151.237.188.0/24 -j DROP
+-A INPUT -s 162.212.168.0/21 -j DROP
+-A INPUT -s 176.103.122.0/23 -j DROP
+
+# AS58065 Orion Network Limited (Fiber Grid + Angelnet related) ^
+# https://github.com/tyabus/banned_ips
